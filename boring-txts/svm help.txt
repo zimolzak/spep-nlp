@@ -1,0 +1,18 @@
+decision boundary
+========
+
+https://lagunita.stanford.edu/c4x/HumanitiesScience/StatLearning/asset/ch9.html
+
+http://stackoverflow.com/questions/1142294/how-do-i-plot-a-classification-graph-of-a-svm-in-r
+
+http://stats.stackexchange.com/questions/5056/computing-the-decision-boundary-of-a-linear-svm-model
+
+http://stats.stackexchange.com/questions/26293/how-to-obtain-decision-boundaries-from-linear-svm-in-r
+
+https://www.researchgate.net/publication/271658381_Visualizing_multi-dimensional_decision_boundaries_in_2D
+
+
+variable importance?
+=====
+
+http://www.jmlr.org/papers/volume5/hastie04a/hastie04a.pdf

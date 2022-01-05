@@ -1,0 +1,1 @@
+﻿patientsid	labchemspecimendatetime	labchemtestname	labchemresultvalue	labpanelcomment	sta3n	labchemsid	labchemtestsid	loincsid

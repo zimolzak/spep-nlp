@@ -1,0 +1,166 @@
+
+Distribution of annotations:
+
+   0    1 <NA> 
+ 170  130 2241 
+
+Station 523 Boston : AUC = 1 
+   fpr tpr acc sp  a b c  d    cutoff dist
+18   0   1   1  1 20 0 0 10 0.7508201    0
+waiting
+
+Station 534 Charleston : AUC = 1 
+   fpr tpr acc sp  a b c  d    cutoff dist
+18   0   1   1  1 19 0 0 11 0.6764025    0
+waiting
+
+Station 583 Indianapolis : AUC = 1 
+   fpr tpr acc sp  a b c  d    cutoff dist
+14   0   1   1  1 14 0 0 16 0.5526976    0
+waiting
+
+Station 621 Mt Home TN : AUC = 1 
+  fpr tpr acc sp a b c  d   cutoff dist
+9   0   1   1  1 8 0 0 22 0.601231    0
+waiting
+
+Station 662 San Francisco : AUC = 1 
+  fpr tpr acc sp a b c  d    cutoff dist
+7   0   1   1  1 7 0 0 23 0.8188619    0
+waiting
+
+All stations : AUC = 0.957859946292088 
+         fpr       tpr       acc        sp  a b c  d    cutoff      dist
+46 0.0776699 0.9361702 0.9266667 0.9223301 44 8 3 95 0.5302711 0.1005329
+
+P < 0.0001030928 
+               term            p   odds_ratio   a  b   c   d normal
+63             1-no 4.008104e-06   0.00000000   0 22 130 148   TRUE
+228 electrophoretic 7.666880e-06   0.00000000   0 20 130 150   TRUE
+286    immunotyping 1.753075e-11   0.00000000   0 40 130 130   TRUE
+341             not 2.935720e-11   0.04000479   2 48 128 122   TRUE
+339          normal 1.848237e-12   0.09665221   8 69 122 101   TRUE
+168           bands 4.900695e-08   0.18970962  13 63 117 107   TRUE
+358         pattern 1.635290e-10   0.19362080  25 94 105  76   TRUE
+327      monoclonal 9.064417e-07   3.25474642  87 65  43 105  FALSE
+380         protein 5.965019e-07   3.36294361  76 50  54 120  FALSE
+453            this 2.260424e-06   3.54940940  55 29  75 141  FALSE
+210        detected 9.821773e-07   3.59544649  58 31  72 139  FALSE
+421             ser 1.808745e-05   3.64454880  41 19  89 151  FALSE
+198        consider 2.486143e-06   4.41103041  41 16  89 154  FALSE
+284  immunofixation 6.987107e-08   4.78088127  49 19  81 151  FALSE
+250        globulin 1.686689e-07   5.28729593  42 14  88 156  FALSE
+245            g/dl 9.820078e-05   7.06052696  19  4 111 166  FALSE
+235      evaluation 5.877048e-10   8.12667621  44 10  86 160  FALSE
+374         present 1.819876e-14   8.15951807  68 20  62 150  FALSE
+352     paraprotein 5.947510e-12   8.24854242  53 13  77 157  FALSE
+410         reveals 2.640781e-11  10.27863902  44  8  86 162  FALSE
+202        consists 7.655829e-05  11.70719161  16  2 114 168  FALSE
+236           faint 8.353920e-06  14.27337013  19  2 111 168  FALSE
+307          lambda 7.224230e-13  14.33860608  45  6  85 164  FALSE
+392           range 2.443931e-16  15.17605355  56  8  74 162  FALSE
+381        proteins 4.091845e-17  17.44236141  56  7  74 163  FALSE
+398       reference 4.091845e-17  17.44236141  56  7  74 163  FALSE
+345        occupies 9.642585e-13  18.94711916  41  4  89 166  FALSE
+456           total 9.642585e-13  18.94711916  41  4  89 166  FALSE
+305           kappa 1.085224e-23  26.81259596  70  7  60 163  FALSE
+469            type 1.685529e-06  26.94417121  18  1 112 169  FALSE
+455             too 7.057849e-07  28.69407178  19  1 111 169  FALSE
+274             igg 1.120326e-26  31.30086355  75  7  55 163  FALSE
+428           small 1.209325e-07  32.28933798  21  1 109 169  FALSE
+247           gamma 2.913117e-36  32.34439862 112 27  18 143  FALSE
+166            band 4.627837e-27  35.64142758  74  6  56 164  FALSE
+283             igm 8.111165e-09  37.93429391  24  1 106 169  FALSE
+450             the 6.750294e-43  51.55706276 113 19  17 151  FALSE
+406      restricted 8.545268e-14  64.10619523  36  1  94 169  FALSE
+399          region 3.285711e-62 265.30827427 123 10   7 160  FALSE
+159        analysis 1.885578e-17          Inf  41  0  89 170  FALSE
+317         m-spike 6.479399e-18          Inf  42  0  88 170  FALSE
+324       migrating 6.479399e-18          Inf  42  0  88 170  FALSE
+
+P < 1e-10 
+            term            p   odds_ratio   a  b   c   d normal
+286 immunotyping 1.753075e-11   0.00000000   0 40 130 130   TRUE
+341          not 2.935720e-11   0.04000479   2 48 128 122   TRUE
+339       normal 1.848237e-12   0.09665221   8 69 122 101   TRUE
+374      present 1.819876e-14   8.15951807  68 20  62 150  FALSE
+352  paraprotein 5.947510e-12   8.24854242  53 13  77 157  FALSE
+410      reveals 2.640781e-11  10.27863902  44  8  86 162  FALSE
+307       lambda 7.224230e-13  14.33860608  45  6  85 164  FALSE
+392        range 2.443931e-16  15.17605355  56  8  74 162  FALSE
+381     proteins 4.091845e-17  17.44236141  56  7  74 163  FALSE
+398    reference 4.091845e-17  17.44236141  56  7  74 163  FALSE
+345     occupies 9.642585e-13  18.94711916  41  4  89 166  FALSE
+456        total 9.642585e-13  18.94711916  41  4  89 166  FALSE
+305        kappa 1.085224e-23  26.81259596  70  7  60 163  FALSE
+274          igg 1.120326e-26  31.30086355  75  7  55 163  FALSE
+247        gamma 2.913117e-36  32.34439862 112 27  18 143  FALSE
+166         band 4.627837e-27  35.64142758  74  6  56 164  FALSE
+450          the 6.750294e-43  51.55706276 113 19  17 151  FALSE
+406   restricted 8.545268e-14  64.10619523  36  1  94 169  FALSE
+399       region 3.285711e-62 265.30827427 123 10   7 160  FALSE
+159     analysis 1.885578e-17          Inf  41  0  89 170  FALSE
+317      m-spike 6.479399e-18          Inf  42  0  88 170  FALSE
+324    migrating 6.479399e-18          Inf  42  0  88 170  FALSE
+
+    s2  s1       AUC      station1      station2
+1  523 523 1.0000000        Boston        Boston
+2  523 534 0.8087291    Charleston        Boston
+3  523 583 0.9794608  Indianapolis        Boston
+4  523 621 0.9691913    Mt Home TN        Boston
+5  523 662 0.8844673 San Francisco        Boston
+6  534 523 0.7377143        Boston    Charleston
+7  534 534 1.0000000    Charleston    Charleston
+8  534 583 0.9702857  Indianapolis    Charleston
+9  534 621 0.3611429    Mt Home TN    Charleston
+10 534 662 0.6182857 San Francisco    Charleston
+11 583 523 0.5177045        Boston  Indianapolis
+12 583 534 1.0000000    Charleston  Indianapolis
+13 583 583 1.0000000  Indianapolis  Indianapolis
+14 583 621 0.9499389    Mt Home TN  Indianapolis
+15 583 662 0.4554335 San Francisco  Indianapolis
+16 621 523 0.9945280        Boston    Mt Home TN
+17 621 534 1.0000000    Charleston    Mt Home TN
+18 621 583 0.9302326  Indianapolis    Mt Home TN
+19 621 621 1.0000000    Mt Home TN    Mt Home TN
+20 621 662 0.7291382 San Francisco    Mt Home TN
+21 662 523 0.9857955        Boston San Francisco
+22 662 534 0.9730114    Charleston San Francisco
+23 662 583 0.9161932  Indianapolis San Francisco
+24 662 621 0.9630682    Mt Home TN San Francisco
+25 662 662 1.0000000 San Francisco San Francisco
+
+Rules-based confusion matrix:
+   yhat
+y     0   1
+  0 169   1
+  1   2 128
+
+Rules-based accuracy (all stations, proper application):
+[1] 0.99
+
+Rules-based accuracy 523 523 : 1 
+Rules-based accuracy 523 534 : 0.85 
+Rules-based accuracy 523 583 : 0.7333333 
+Rules-based accuracy 523 621 : 0.3333333 
+Rules-based accuracy 523 662 : 0.9166667 
+Rules-based accuracy 534 523 : 0.3166667 
+Rules-based accuracy 534 534 : 0.9666667 
+Rules-based accuracy 534 583 : 0.9833333 
+Rules-based accuracy 534 621 : 0.7166667 
+Rules-based accuracy 534 662 : 0.7333333 
+Rules-based accuracy 583 523 : 0.3166667 
+Rules-based accuracy 583 534 : 0.55 
+Rules-based accuracy 583 583 : 1 
+Rules-based accuracy 583 621 : 0.7166667 
+Rules-based accuracy 583 662 : 0.7333333 
+Rules-based accuracy 621 523 : 0.3166667 
+Rules-based accuracy 621 534 : 0.8166667 
+Rules-based accuracy 621 583 : 0.7666667 
+Rules-based accuracy 621 621 : 1 
+Rules-based accuracy 621 662 : 0.7333333 
+Rules-based accuracy 662 523 : 0.3166667 
+Rules-based accuracy 662 534 : 0.4166667 
+Rules-based accuracy 662 583 : 0.65 
+Rules-based accuracy 662 621 : 0.7166667 
+Rules-based accuracy 662 662 : 0.9833333 

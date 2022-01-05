@@ -1,0 +1,26 @@
+SELECT 
+    L.PatientSID,
+    L.LabChemSpecimenDateTime,
+    DL.[LabChemTestName],
+    L.LabChemResultValue,
+    LP.LabPanelComment,
+    L.Sta3n,
+    L.LabChemSID,
+    L.LabChemTestSID,
+    L.LOINCSID
+FROM [CDWWork].[Chem].[LabChem] as L
+    left join [CDWWork].[Dim].[LabChemTest] as DL
+    on DL.LabChemTestSID = L.LabChemTestSID
+    left join [CDWWork].[Chem].[LabPanel] as LP
+    on LP.LabPanelSID = L.LabPanelSID
+where (DL.LabChemTestName like 'electrophor%'
+    or dl.LabChemTestName LIKE 'immunofix%'
+    or dl.LabChemTestName LIKE 'immuno-electrophor%'
+    or dl.LabChemTestName LIKE 'Immuno Interp%'
+    or dl.LabChemTestName like 'protein electro%'
+    or dl.LabChemTestName like 'serum protein electrophor%'
+    or dl.LabChemTestName like 'spep%'
+    or dl.LabChemTestName like 'pep panel%'
+    or dl.LabChemTestName like 'pep interp%')
+    AND L.LabChemSpecimenDateTime > '2015-06-30'
+    and l.LabChemSpecimenDateTime < '2016-01-01'
